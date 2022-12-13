@@ -1,0 +1,5 @@
+To run api:
+1. cd to the endpoint
+2. node start.js
+3. if it says this error: "Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@supabase/supabase-js' imported from"
+npm install @supabase/supabase-js
