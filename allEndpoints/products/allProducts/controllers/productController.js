@@ -33,6 +33,7 @@ export async function getProducts(req, res) {
           state: product.state,
           // timeslot: product.timeslot,
           name: product.name,
+          imageurl: product.image_url,
         });
       });
       res.json(products);
